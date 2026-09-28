@@ -1,0 +1,36 @@
+# Data & Sensitive Exports
+data/
+*.vault
+*.db
+*.pid
+otp_helper.pid
+*export*.json
+*.tmp
+
+# Native Executables & Build Artifacts
+*.exe
+*.pdb
+*.obj
+*.ico
+
+# Legacy Python & PyInstaller
+venv/
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec
+*.py
+requirements.txt
+pyinstall.bat
+r.bat
+
+# Archive folder
+artifacts/
+
+# System & IDE
+.vs/
+.idea/
+Thumbs.db
+Desktop.ini
