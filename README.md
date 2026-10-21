@@ -2,10 +2,10 @@
 
 Aplikasi desktop Windows ringan untuk menyimpan secret dan mengenerate kode 2FA (TOTP) secara offline.
 
-## Cara Pakai
+## Download & Cara Pakai
 
-1. Double-click `build_native.bat` untuk mengompilasi.
-2. Buka `OTP-Helper.exe`.
+1. Unduh binary `OTP-Helper.exe` siap pakai melalui halaman [GitHub Releases](https://github.com/tiomultazem/otp-helper/releases) (atau kompilasi mandiri dengan menjalankan `build_native.bat`).
+2. Jalankan `OTP-Helper.exe`.
 3. Buat master password (minimal 6 karakter) saat pertama kali dibuka.
 
 ## Cara Ekstrak & Simpan Secret (via Aegis)
