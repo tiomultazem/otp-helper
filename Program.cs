@@ -582,7 +582,7 @@ namespace OTPHelper
             p.Controls.AddRange(new Control[] { lblTitle, lblSub, lblPw, txtPw, lblCf, txtCf, lblErr, btn });
             contentPanel.Controls.Add(p);
 
-            var lblFoot = new Label { Text = "2026 made with ❤️, Gilang Wahyu Prasetyo © BPS Kabupaten Tabalong", Dock = DockStyle.Bottom, Height = 24, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
+            var lblFoot = new Label { Text = "2026 © made with ❤️, Gilang Wahyu Prasetyo", Dock = DockStyle.Bottom, Height = 24, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
             contentPanel.Controls.Add(lblFoot);
         }
 
@@ -669,7 +669,7 @@ namespace OTPHelper
             p.Controls.AddRange(new Control[] { lblTitle, lblSub, txtPw, chkLock, lblErr, btn });
             contentPanel.Controls.Add(p);
 
-            var lblFoot = new Label { Text = "2026 made with ❤️, Gilang Wahyu Prasetyo © BPS Kabupaten Tabalong", Dock = DockStyle.Bottom, Height = 24, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
+            var lblFoot = new Label { Text = "2026 © made with ❤️, Gilang Wahyu Prasetyo", Dock = DockStyle.Bottom, Height = 24, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
             contentPanel.Controls.Add(lblFoot);
             txtPw.Focus();
         }
@@ -746,7 +746,7 @@ namespace OTPHelper
             cardsLayout.Resize += (s, e) => AdjustCardWidths();
 
             var footerPanel = new Panel { Dock = DockStyle.Bottom, Height = 22, BackColor = Color.FromArgb(15, 17, 26) };
-            var lblFoot = new Label { Text = "2026 made with ❤️, Gilang Wahyu Prasetyo © BPS Kabupaten Tabalong", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
+            var lblFoot = new Label { Text = "2026 © made with ❤️, Gilang Wahyu Prasetyo", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(75, 85, 99), Font = new Font("Segoe UI", 7.5f) };
             footerPanel.Controls.Add(lblFoot);
 
             contentPanel.Controls.Add(cardsLayout);
@@ -1187,7 +1187,7 @@ namespace OTPHelper
             var lblTitle = new Label { Text = "OTP Helper v1.0", Font = new Font("Segoe UI", 13, FontStyle.Bold), AutoSize = true, Location = new Point((dlg.ClientSize.Width - 130) / 2, topY), ForeColor = Color.White };
             topY += 28;
 
-            var lblAuthor = new Label { Text = "Gilang Wahyu Prasetyo\n© 2026 BPS Kabupaten Tabalong", AutoSize = false, Size = new Size(310, 34), Location = new Point(25, topY), TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(148, 163, 184), Font = new Font("Segoe UI", 8.5f) };
+            var lblAuthor = new Label { Text = "Gilang Wahyu Prasetyo\n© 2026 Kabupaten Tabalong", AutoSize = false, Size = new Size(310, 34), Location = new Point(25, topY), TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(148, 163, 184), Font = new Font("Segoe UI", 8.5f) };
             topY += 42;
 
             var lblIconAttr = new Label { Text = "Icon: Secret icons created by IwitoStudio - Flaticon", AutoSize = false, Size = new Size(310, 18), Location = new Point(25, topY), TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(56, 189, 248), Font = new Font("Segoe UI", 8f, FontStyle.Underline), Cursor = Cursors.Hand };
